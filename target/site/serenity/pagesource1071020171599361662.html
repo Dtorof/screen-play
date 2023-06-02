@@ -1,0 +1,688 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en-US" class="pro theme-azure-light nprogress-busy"&gt;<br/>
+ &lt;head&gt; <br/>
+  &lt;meta charset="utf-8"&gt; <br/>
+  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; <br/>
+  &lt;meta http-equiv="Content-Type" content="text/html;charset=utf-8"&gt; <br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"&gt; <br/>
+  &lt;meta name="username" content="admin"&gt; <br/>
+  &lt;link rel="home" id="ApplicationPath" href="/"&gt; <br/>
+  &lt;link rel="icon" type="image/x-icon" href="/favicon.ico"&gt; <br/>
+  &lt;link href="/DynJS.axd/CssBundle.Base.css?v=O9axI5jlwBLL0kfzeOMoEw" rel="stylesheet" type="text/css"&gt; <br/>
+  &lt;link href="/DynJS.axd/CssBundle.Site.css?v=OeUkS84xlJXpk6XLrzRyuw" rel="stylesheet" type="text/css"&gt; <br/>
+  &lt;script type="application/json" id="ScriptCulture"&gt;{"DateOrder":"mdy","DateFormat":"MM/dd/yyyy","DateSeparator":"/","DateTimeFormat":"MM/dd/yyyy HH:mm:ss","DecimalSeparator":".","GroupSeparator":","}&lt;/script&gt; <br/>
+  &lt;script src="/DynJS.axd/Bundle.Base.js?v=turcHBA9hFi4q2gQ-naFLw" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script src="/DynJS.axd/Bundle.Site.js?v=hBQMnuViZGwT049Oulqeyw" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script src="/DynJS.axd/LocalText.Site.en-US.Public.js?v=eq4NtM4Yd_mX-S0wkLLqRg" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script type="module" src="/esm/Modules/Common/ScriptInit.js?v=e_yCLgdP_gvOZLpU_s9DzQ"&gt;&lt;/script&gt; <br/>
+  &lt;script type="text/javascript"&gt;Q.ScriptData.set('Lookup.Administration.Language', new Q.Lookup({"idField":"LanguageId","textField":"LanguageName"}, <br/>
+[{"Id":13,"LanguageId":"ar","LanguageName":"Arabic"},{"Id":14,"LanguageId":"bn","LanguageName":"Bangla"},{"Id":6,"LanguageId":"zh-CN","LanguageName":"Chinese (Simplified)"},{"Id":24,"LanguageId":"zh-TW","LanguageName":"Chinese (Traditional)"},{"Id":15,"LanguageId":"cs","LanguageName":"Czech"},{"Id":20,"LanguageId":"nl","LanguageName":"Dutch"},{"Id":1,"LanguageId":"en","LanguageName":"English"},{"Id":10,"LanguageId":"fa","LanguageName":"Farsi"},{"Id":12,"LanguageId":"fr","LanguageName":"French"},{"Id":5,"LanguageId":"de","LanguageName":"German"},{"Id":16,"LanguageId":"hi","LanguageName":"Hindi"},{"Id":17,"LanguageId":"id","LanguageName":"Indonesian"},{"Id":7,"LanguageId":"it","LanguageName":"Italian"},{"Id":18,"LanguageId":"ja","LanguageName":"Japanese"},{"Id":19,"LanguageId":"ko","LanguageName":"Korean"},{"Id":21,"LanguageId":"pl","LanguageName":"Polish"},{"Id":8,"LanguageId":"pt","LanguageName":"Portuguese"},{"Id":9,"LanguageId":"pt-BR","LanguageName":"Portuguese (Brazil)"},{"Id":22,"LanguageId":"ro","LanguageName":"Romanian"},{"Id":2,"LanguageId":"ru","LanguageName":"Russian"},{"Id":3,"LanguageId":"es","LanguageName":"Spanish"},{"Id":23,"LanguageId":"sv","LanguageName":"Swedish"},{"Id":4,"LanguageId":"tr","LanguageName":"Turkish"},{"Id":11,"LanguageId":"vi-VN","LanguageName":"Vietnamese (Vietnam)"}]<br/>
+));&lt;/script&gt; <br/>
+  &lt;script type="text/javascript"&gt;Q.ScriptData.set('RemoteData.UserData', {"Username":"admin","DisplayName":"admin","IsAdmin":true,"Permissions":{"Administration:Security":true,"Administration:Translation":true,"Northwind:General":true,"Northwind:Customer:Delete":true,"Northwind:Customer:Modify":true,"Northwind:Customer:View":true,"Administration:DataAuditLog":true,"Administration:DataExplorer":true,"EmailClient:Mailbox":true,"Administration:EmailQueue":true,"Organization:General":true,"Organization:BusinessUnits:Management":true,"Organization:Contacts:Management":true,"Meeting:General":true,"Meeting:Management":true,"WorkLog:Lookups":true,"WorkLog:Commercial":true,"WorkLog:Customer":true,"WorkLog:Management":true,"WorkLog:Employee":true,"WorkLog:Pricing":true,"Role:Developers":true,"Role:Administrators":true,"Role:Employees":true,"Role:NorthwindUsers":true,"Role:WorkLogCustomers":true,"Role:WorkLogManagers":true}});&lt;/script&gt; <br/>
+  &lt;script type="application/json" id="RegisteredScripts"&gt;{"Lookup.Northwind.OrderShipCountry":"638212761612675924","Form.Northwind.Customer":"638212761612675950","LocalText.Site.en-US.Public":"eq4NtM4Yd_mX-S0wkLLqRg","Form.AdvancedSamples.ProductExcelImport":"638212761612675978","Lookup.Northwind.OrderShipCity":"638212761612675996","Lookup.Serenity.Pro.Meeting.MeetingType":"638212761612676012","Form.Northwind.Region":"638212761612676023","Lookup.Distinct.WorkLog.WorkLog.Month":"638212761612676035","Form.Serenity.Pro.Meeting.MeetingForm":"638212761612676051","Form.BasicSamples.HarcodedValues":"638212761612676062","Columns.Administration.User":"638212761612676075","Form.WorkLog.EmployeePricing":"638212761612676085","Form.WorkLog.Employee":"638212761612676091","ColumnsBundle":"CuB17ivfNAqUzMx2COkxpw","Columns.Northwind.Shipper":"638212761612676121","LocalText.Site.zh-CN.Public":"ia_i8pQmCkPr3_rAr1sG5Q","Form.Membership.ResetPassword":"638212761612676146","Lookup.Northwind.Shipper":"638212761612676162","Form.AdvancedSamples.OrderWizard":"638212761612676178","Columns.Administration.Language":"638212761612676186","Form.BasicSamples.FilteredLookupInDetail":"638212761612676197","Form.Serenity.Pro.EmailClient.EmailLogin":"638212761612676206","Columns.WorkLog.Invoice":"638212761612676215","Bundle.Site":"hBQMnuViZGwT049Oulqeyw","Columns.Northwind.Territory":"638212761612676234","Form.Northwind.Shipper":"638212761612676244","Form.Northwind.Product":"638212761612676256","Form.WorkLog.Invoice":"638212761612676267","Form.Membership.ForgotPassword":"638212761612676275","Form.Northwind.Supplier":"638212761612676284","Lookup.Northwind.CustomerCity":"638212761612676303","Form.AdvancedSamples.DragDropSample":"638212761612676311","Columns.Northwind.Supplier":"638212761612676319","Form.Administration.User":"638212761612676331","Columns.BasicSamples.InlineImageInGrid":"638212761612676338","Columns.Northwind.Region":"638212761612676347","Lookup.WorkLog.Currency":"638212761612676359","Form.Membership.SignUp":"638212761612676367","TemplateBundle":"638212761612676597","Bundle.Base":"turcHBA9hFi4q2gQ-naFLw","Form.Northwind.Category":"638212761612676613","Form.Northwind.Territory":"638212761612676620","Form.Administration.Language":"638212761612676627","Form.AdvancedSamples.EnumFlagsForm":"638212761612676636","Lookup.Northwind.Product":"638212761612676650","Form.Serenity.Pro.Meeting.Forms.MeetingAgendaRelevantForm":"638212761612676660","RemoteData.LocalText":"-821858088","Lookup.Administration.Role":"638212761612676745","Columns.Serenity.Pro.Meeting.Columns.MeetingAgendaColumns":"638212761612676754","Columns.WorkLog.Project":"638212761612676762","Columns.Northwind.SalesByCategory":"638212761612676771","Columns.Northwind.OrderDetail":"638212761612676781","Form.BasicSamples.StaticTextBlock":"638212761612676789","Form.WorkLog.Project":"638212761612676802","Columns.Serenity.Pro.Meeting.Columns.MeetingAttendeeColumns":"638212761612676811","Form.WorkLog.Customer":"638212761612676817","FormBundle":"Oi7sCEHePG53l4mbXiD5JA","Lookup.Northwind.Employee":"638212761612676843","Columns.Northwind.Product":"638212761612676851","Columns.Serenity.Pro.Meeting.Columns.MeetingAgendaRelevantColumns":"638212761612676858","Lookup.Distinct.Serenity.Pro.DataAuditLog.DataAuditLog.Tablename":"638212761612676870","Columns.Serenity.Pro.Meeting.Columns.MeetingDecisionColumns":"638212761612676880","Form.Serenity.Pro.EmailClient.EmailCompose":"638212761612676888","Form.WorkLog.WorkLog":"638212761612676895","Columns.Serenity.Pro.Organization.Columns.ContactColumns":"638212761612676903","Form.AdvancedSamples.MultiDatesPicker":"638212761612676912","Form.Serenity.Pro.DataAuditLog.DataAuditLogForm":"638212761612676922","Form.Northwind.Order":"638212761612676929","Lookup.WorkLog.Invoice":"638212761612676988","Form.AdvancedSamples.InlineButtons":"638212761612676999","Columns.Serenity.Pro.Meeting.Columns.MeetingLocationColumns":"638212761612677007","Form.WorkLog.Currency":"638212761612677014","Form.Serenity.Pro.Meeting.Forms.MeetingDecisionForm":"638212761612677024","Lookup.WorkLog.Tasks":"638212761612677036","Columns.WorkLog.Customer":"638212761612677044","Form.BasicSamples.LookupFilterByMultiple":"638212761612677052","Columns.WorkLog.WorkLog":"638212761612677061","Form.Serenity.Pro.Meeting.Forms.MeetingAgendaTypeForm":"638212761612677069","Columns.AdvancedSamples.CustomerGrossSales":"638212761612677077","Lookup.WorkLog.Employee":"638212761612677089","Form.Membership.ChangePassword":"638212761612677097","Columns.WorkLog.Currency":"638212761612677105","RemoteData.Administration.ImplicitPermissions":"638212761612677117","Form.Serenity.Pro.Organization.Forms.BusinessUnitForm":"638212761612677126","Lookup.Distinct.WorkLog.WorkLog.Year":"638212761612677135","CssBundle.Site":"OeUkS84xlJXpk6XLrzRyuw","Columns.Serenity.Pro.EmailQueue.EmailQueueColumns":"638212761612677154","Form.Serenity.Pro.Meeting.Forms.MeetingAttendeeForm":"638212761612677162","Lookup.WorkLog.Customer":"638212761612677175","Lookup.Serenity.Pro.Organization.BusinessUnit":"638212761612677186","Columns.Northwind.Category":"638212761612677253","RemoteData.Administration.PermissionKeys":"638212761612677266","Form.BasicSamples.PopulateLinkedData":"638212761612677274","Lookup.Northwind.Supplier":"JohzrWfNo0QsmwGfw7TKcw","Lookup.Serenity.Pro.Organization.Contact":"638212761612677329","CssBundle.Pages/Dashboard":"-ZPKnLcVg--c7ytj7WiH9w","Form.BasicSamples.ChangingLookupText":"638212761612677351","Form.Serenity.Pro.Meeting.Forms.MeetingTypeForm":"638212761612677359","Columns.AdvancedSamples.DragDropSample":"638212761612677366","Lookup.Administration.Language":"6hGfCpH8wKnrLo2YJjNMFg","Form.Northwind.OrderDetail":"638212761612677400","Lookup.Northwind.SupplierCountry":"638212761612677411","RemoteData.UserData":"638212761612677418","Form.Administration.Role":"638212761612677428","Lookup.Distinct.Serenity.Pro.DataAuditLog.DataAuditLog.FieldName":"638212761612677438","CssBundle.Base.rtl":"638212761612677446","Lookup.Serenity.Pro.Meeting.MeetingLocation":"638212761612677456","Lookup.Northwind.CustomerCountry":"638212761612677466","Form.Serenity.Pro.Organization.Forms.ContactForm":"638212761612677476","Lookup.Northwind.Territory":"638212761612677490","Form.Serenity.Pro.Meeting.Forms.MeetingAgendaForm":"638212761612677498","Lookup.Northwind.Region":"638212761612677508","Columns.Northwind.Order":"638212761612677517","Lookup.Serenity.Pro.Meeting.MeetingAgendaType":"638212761612677526","Form.Serenity.Pro.EmailQueue.EmailQueueForm":"638212761612677535","Columns.Serenity.Pro.Meeting.Columns.MeetingTypeColumns":"638212761612677587","Form.Membership.Login":"638212761612677595","ColumnAndFormBundle":"cWhCKW62pyUBixYusCJLUQ","Columns.Serenity.Pro.Meeting.Columns.MeetingDecisionRelevantColumns":"638212761612677616","Form.Serenity.Pro.Meeting.Forms.MeetingDecisionRelevantForm":"638212761612677625","Columns.Serenity.Pro.DataAuditLog.DataAuditLogColumns":"638212761612677631","Lookup.Northwind.Customer":"638212761612677644","LocalText.Site.es-CO.Public":"YQXqdlxeH8O3FdiTgyNLYw","Columns.Serenity.Pro.Organization.Columns.BusinessUnitColumns":"638212761612677669","Columns.Administration.Role":"638212761612677677","Form.AdvancedSamples.GoogleMapsForm":"638212761612677686","LocalText.Site.es-ES.Public":"YQXqdlxeH8O3FdiTgyNLYw","CssBundle.Base":"O9axI5jlwBLL0kfzeOMoEw","Columns.WorkLog.EmployeePricing":"638212761612677715","Columns.Northwind.Customer":"638212761612677721","Columns.Serenity.Pro.Meeting.MeetingColumns":"638212761612677727","Form.Serenity.Pro.Meeting.Forms.MeetingLocationForm":"638212761612677737","Lookup.Administration.User":"638212761612677746","Lookup.Northwind.Category":"ARf_gzKlacidyGakML5PgA","Form.AdvancedSamples.PickerOrder":"638212761612677783","Columns.WorkLog.Employee":"638212761612677789","Columns.Serenity.Pro.Meeting.Columns.MeetingAgendaTypeColumns":"638212761612677796","Lookup.WorkLog.Project":"638212761612677809"}&lt;/script&gt; <br/>
+  &lt;script src="/DynJS.axd/Lookup.Northwind.Category.js?v=ARf_gzKlacidyGakML5PgA" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;script src="/DynJS.axd/Lookup.Northwind.Supplier.js?v=JohzrWfNo0QsmwGfw7TKcw" type="text/javascript"&gt;&lt;/script&gt; <br/>
+  &lt;title&gt;Products - StartSharp&lt;/title&gt; <br/>
+ &lt;/head&gt; <br/>
+ &lt;body id="s-Page" class="full-height-page"&gt; <br/>
+  &lt;div id="PageBackground" style="display: none"&gt;&lt;/div&gt; <br/>
+  &lt;aside class="s-sidebar" id="s-sidebar"&gt; <br/>
+   &lt;div class="s-sidebar-band"&gt; <br/>
+    &lt;ul class="s-sidebar-band-groups"&gt; <br/>
+     &lt;li class="active"&gt; &lt;a class="s-sidebar-band-link" href="#s_sidebar_group1" title="StartSharp"&gt; &lt;i class="s-sidebar-band-icon fa fa-home"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+     &lt;li class=""&gt; &lt;a class="s-sidebar-band-link" href="#s_sidebar_group2" title="Administration"&gt; &lt;i class="s-sidebar-band-icon fa fa-tools"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+    &lt;/ul&gt; <br/>
+    &lt;div class="s-sidebar-band-middle"&gt; <br/>
+     &lt;div class="s-sidebar-band-branding"&gt; <br/>
+      &lt;img class="s-site-logo-img s-sidebar-band-logo"&gt; &lt;span class="s-sidebar-band-title"&gt;Start&lt;/span&gt;&lt;span class="s-sidebar-band-title2"&gt;Sharp&lt;/span&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+    &lt;ul class="s-sidebar-band-actions"&gt; <br/>
+     &lt;li&gt; <br/>
+      &lt;div class="dropdown dropend"&gt; &lt;a href="javascript:;" class="s-sidebar-band-link s-language-selection-link" data-bs-toggle="dropdown" title="switch language"&gt; &lt;i class="s-sidebar-band-icon fa fa-language"&gt;&lt;/i&gt; &lt;/a&gt; <br/>
+       &lt;ul class="dropdown-menu s-language-selection-menu"&gt; <br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="ar" href="javascript:;"&gt;Arabic&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="bn" href="javascript:;"&gt;Bangla&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="zh-CN" href="javascript:;"&gt;Chinese (Simplified)&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="zh-TW" href="javascript:;"&gt;Chinese (Traditional)&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="cs" href="javascript:;"&gt;Czech&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="nl" href="javascript:;"&gt;Dutch&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="en" href="javascript:;"&gt;English&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="fa" href="javascript:;"&gt;Farsi&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="fr" href="javascript:;"&gt;French&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="de" href="javascript:;"&gt;German&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="hi" href="javascript:;"&gt;Hindi&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="id" href="javascript:;"&gt;Indonesian&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="it" href="javascript:;"&gt;Italian&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="ja" href="javascript:;"&gt;Japanese&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="ko" href="javascript:;"&gt;Korean&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="pl" href="javascript:;"&gt;Polish&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="pt" href="javascript:;"&gt;Portuguese&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="pt-BR" href="javascript:;"&gt;Portuguese (Brazil)&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="ro" href="javascript:;"&gt;Romanian&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="ru" href="javascript:;"&gt;Russian&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="es" href="javascript:;"&gt;Spanish&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="sv" href="javascript:;"&gt;Swedish&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="tr" href="javascript:;"&gt;Turkish&lt;/a&gt;&lt;/li&gt;<br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-language="vi-VN" href="javascript:;"&gt;Vietnamese (Vietnam)&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;/ul&gt; <br/>
+      &lt;/div&gt; &lt;/li&gt; <br/>
+     &lt;li&gt; <br/>
+      &lt;div class="dropdown dropend"&gt; &lt;a href="javascript:;" class="s-sidebar-band-link s-theme-selection-link" data-bs-toggle="dropdown" title="switch theme"&gt; &lt;i class="s-sidebar-band-icon fa fa-fill-drip"&gt;&lt;/i&gt; &lt;/a&gt; <br/>
+       &lt;ul class="dropdown-menu s-theme-selection-menu"&gt; <br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-theme="azure-light" href="javascript:;"&gt;Azure (Light)&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-theme="cosmos-dark" href="javascript:;"&gt;Cosmos (Dark)&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;li&gt;&lt;a class="dropdown-item" data-theme="glassy-light" href="javascript:;"&gt;Glassy (Light)&lt;/a&gt;&lt;/li&gt; <br/>
+       &lt;/ul&gt; <br/>
+      &lt;/div&gt; &lt;/li&gt; <br/>
+     &lt;li&gt; <br/>
+      &lt;div class="dropdown dropend"&gt; &lt;a href="javascript:;" class="s-sidebar-band-link s-user-profile-link" data-bs-toggle="dropdown" title="admin"&gt; &lt;i class="s-sidebar-band-icon fa fa-user"&gt;&lt;/i&gt; &lt;/a&gt; <br/>
+       &lt;div class="dropdown-menu dropdown-menu-md s-user-profile-menu"&gt; <br/>
+        &lt;div class="s-user-card p-1 mb-2 text-center border-bottom"&gt; <br/>
+         &lt;h2 class="s-user-avatar fs-1 mb-0"&gt; &lt;i class="fa fa-user"&gt;&lt;/i&gt; &lt;/h2&gt; <br/>
+         &lt;p class="s-user-info fs-6 mb-1"&gt; admin &lt;/p&gt; <br/>
+        &lt;/div&gt; &lt;a class="dropdown-item" href="/Account/ChangePassword"&gt; &lt;em class="icon fa fa-key"&gt;&lt;/em&gt;&lt;span&gt; Change Password&lt;/span&gt; &lt;/a&gt; &lt;a class="dropdown-item" href="/Account/Signout"&gt; &lt;em class="icon fa fa-sign-out-alt"&gt;&lt;/em&gt;&lt;span&gt; Logout&lt;/span&gt; &lt;/a&gt; <br/>
+       &lt;/div&gt; <br/>
+      &lt;/div&gt; &lt;/li&gt; <br/>
+     &lt;li class="s-sidebar-pane-toggle"&gt; &lt;a href="javascript:;" class="s-sidebar-band-link s-sidebar-pane-toggle-link" title="toggle sidebar"&gt; &lt;i class="s-sidebar-band-icon fa fa-angle-double-left"&gt;&lt;/i&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+    &lt;/ul&gt; <br/>
+   &lt;/div&gt; <br/>
+   &lt;div class="s-sidebar-pane"&gt; <br/>
+    &lt;div id="s-sidebar-search" class="s-sidebar-search m-3"&gt; &lt;i class="fa fa-search fa-flip-horizontal s-sidebar-search-icon"&gt;&lt;/i&gt; <br/>
+     &lt;input type="text" class="w-100 s-sidebar-search-input" placeholder="search..."&gt; <br/>
+    &lt;/div&gt; <br/>
+    &lt;div class="s-sidebar-groups"&gt; <br/>
+     &lt;div class="s-sidebar-group active" id="s_sidebar_group1"&gt; <br/>
+      &lt;h5 class="s-sidebar-group-title"&gt;StartSharp&lt;/h5&gt; <br/>
+      &lt;ul class="s-sidebar-menu" id="s_sidebar_menu1"&gt; <br/>
+       &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/"&gt; &lt;i class="s-sidebar-icon fa fa-tachometer"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Dashboard&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+       &lt;li class="s-sidebar-item s-sidebar-section active has-children"&gt; &lt;h6 class="s-sidebar-section-title"&gt;Demo Modules&lt;/h6&gt; <br/>
+        &lt;ul id="nav_menu1_2" class="s-sidebar-section-menu"&gt; <br/>
+         &lt;li class="s-sidebar-item active has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_1" data-bs-toggle="collapse" aria-expanded="true"&gt; &lt;i class="s-sidebar-icon fa fa-anchor"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Northwind&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+          &lt;ul id="nav_menu1_2_1" class="s-sidebar-menu collapse show" data-bs-parent="#nav_menu1_2"&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Customer"&gt; &lt;i class="s-sidebar-icon fa fa-credit-card"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Customers&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Order"&gt; &lt;i class="s-sidebar-icon fa fa-shopping-cart"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Orders&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item active"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Product"&gt; &lt;i class="s-sidebar-icon fa fa-cube"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Products&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Supplier"&gt; &lt;i class="s-sidebar-icon fa fa-truck"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Suppliers&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Shipper"&gt; &lt;i class="s-sidebar-icon fa fa-ship"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Shippers&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Category"&gt; &lt;i class="s-sidebar-icon fa fa-folder-o"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Categories&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Region"&gt; &lt;i class="s-sidebar-icon fa fa-map-o"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Regions&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Territory"&gt; &lt;i class="s-sidebar-icon fa fa-puzzle-piece"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Territories&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Reports"&gt; &lt;i class="s-sidebar-icon fa fa-files-o"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Reports&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+          &lt;/ul&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_2" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon fa fa-magic"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Basic Samples&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+          &lt;ul id="nav_menu1_2_2" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2"&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_2_1" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Dialogs&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_2_2_1" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2_2"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/ChartInDialog"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Chart in a Dialog&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/CloneableEntityDialog"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Cloneable Entity Dialog&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/DefaultValuesInNewDialog"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Default Values in New Dialog&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/DialogBoxes"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Dialog Boxes&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/EntityDialogAsPanel/11077"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Entity Dialog as Panel&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/GetInsertedRecordId"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Get Inserted Record ID&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/OtherFormInTab"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Other Form In Tab&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/OtherFormInTabOneBar"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Other Form, One Toolbar&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/PopulateLinkedData"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Populate Linked Data&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/ReadOnlyDialog"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Read-Only Dialog&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/SerialAutoNumber"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Serial Auto Numbering&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_2_2" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Editors&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_2_2_2" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2_2"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/ChangingLookupText"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Changing Lookup Text&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/FilteredLookupInDetailDialog"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Filtered Lookup in Detail.&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/LookupFilterByMultipleValues"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Lookup Filter by Multi Val.&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/SelectWithHardcodedValues"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Select with Hardcod.Vals.&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/StaticTextBlock"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Static Text Block&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_2_3" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Grids&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_2_2_3" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2_2"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/CustomLinksInGrid"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Custom Links In Grid&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/EnablingRowSelection"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Enabling Row Selection&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/GroupingAndSummariesInGrid"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Grouping and Sum. In Grid&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/GridFilteredByCriteria"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Grid Filtered by Criteria&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/InitialValuesForQuickFilters"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Initial Value for Quick Flt.&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/InlineActionButtons"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Inline Action Buttons&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/InlineImageInGrid"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Inline Image In Grid&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/RemovingAddButton"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Removing Add Button&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/ViewWithoutID"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;View Without ID&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/BasicSamples/WrappedHeaders"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Wrapped Headers&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_2_4" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Dynamic Navigation&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_2_2_4" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2_2"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Product?cat=1"&gt; &lt;i class="s-sidebar-icon icon-folder-alt"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Beverages&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Product?cat=2"&gt; &lt;i class="s-sidebar-icon icon-folder-alt"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Condiments&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Product?cat=3"&gt; &lt;i class="s-sidebar-icon icon-folder-alt"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Confections&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Product?cat=4"&gt; &lt;i class="s-sidebar-icon icon-folder-alt"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Dairy Products&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Product?cat=5"&gt; &lt;i class="s-sidebar-icon icon-folder-alt"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Grains/Cereals&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Product?cat=6"&gt; &lt;i class="s-sidebar-icon icon-folder-alt"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Meat/Poultry&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Product?cat=7"&gt; &lt;i class="s-sidebar-icon icon-folder-alt"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Produce&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Northwind/Product?cat=8"&gt; &lt;i class="s-sidebar-icon icon-folder-alt"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Seafood&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+          &lt;/ul&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_3" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon fa fa-star premium-feature"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Advanced Samples&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+          &lt;ul id="nav_menu1_2_3" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2"&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_3_1" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Data Tables&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_2_3_1" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2_3"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/BasicInit"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Basic Initialization&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/ServerSide"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Server Side Source&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_3_2" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Editors&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_2_3_2" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2_3"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/InputWithInlineButtons"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Input with Inline Buttons&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/MultiDatesPicker"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Multi Dates Picker&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/ProductPicker"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Product Picker&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/EnumFlagsEditor"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Enum Flags Editor&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/GoogleMapsEditor"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Google Maps Editor&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_3_3" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Forms&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_2_3_3" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2_3"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/BootstrapFormList"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Bootstrap Form&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/EntityGridDialog"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Entity Grid Dialog&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/OrderWizard"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Order Wizard&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_3_4" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Grids&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_2_3_4" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2_3"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/AutoColumnWidth"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Auto Column Width&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/CardView"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Card View&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/CustomizableSummaries"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Customizable Summaries&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/CancellableBulkAction"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Cancellable Bulk Action&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/ConditionalFormatting"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Conditional Formatting&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/DragDropGrouping"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Drag &amp; Drop Grouping&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/DragDropInTreeGrid"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Drag &amp; Drop in Tree Grid&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/ExcelStyleFilters"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Excel Style Filtering&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/InlineEditing"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Inline Editing&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/LongRunningAction"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Long Running Action&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/ProductExcelImport"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Product Excel Import&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/QuickFilterCustomization"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Quick Filter Customization&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/SplitMasterDetail"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Split Master Detail Grids&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/StoredProcedureGrid"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Stored Procedure Grid&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/TreeGrid"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Tree Grid&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_3_5" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Misc&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_2_3_5" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2_3"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/DataAuditLog"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Data Audit Log&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/DataExplorer"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Data Explorer&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/EmailClient/Mailbox"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;E-mail Client (IMAP)&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/AdvancedSamples/IdleTimeout"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Idle (Session) Timeout&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+          &lt;/ul&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_2_4" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon fa fa-code"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;UI Elements&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+          &lt;ul id="nav_menu1_2_4" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_2"&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Serenity.Demo.AdvancedSamples/UIElements/Components"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Components&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Serenity.Demo.AdvancedSamples/UIElements/Icons"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Icons&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Serenity.Demo.AdvancedSamples/UIElements/Tabs"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Tabs &amp; Accordion&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+          &lt;/ul&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="s-sidebar-item s-sidebar-section has-children"&gt; &lt;h6 class="s-sidebar-section-title"&gt;Pro Features&lt;/h6&gt; <br/>
+        &lt;ul id="nav_menu1_3" class="s-sidebar-section-menu"&gt; <br/>
+         &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_3_1" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon fa fa-sitemap premium-feature"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Organization&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+          &lt;ul id="nav_menu1_3_1" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_3"&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Organization/BusinessUnit"&gt; &lt;i class="s-sidebar-icon fa fa-sitemap"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Business Units&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Organization/Contact"&gt; &lt;i class="s-sidebar-icon fa fa-address-book"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Contacts&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+          &lt;/ul&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_3_2" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon fa fa-comments premium-feature"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Meeting&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+          &lt;ul id="nav_menu1_3_2" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_3"&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Meeting/Meeting"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Meetings&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Meeting/MeetingAgendaType"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Meeting Agenda Types&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Meeting/MeetingLocation"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Meeting Locations&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Meeting/MeetingType"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Meeting Types&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+          &lt;/ul&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_3_3" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon fa fa-hourglass-end premium-feature"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Work Log&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+          &lt;ul id="nav_menu1_3_3" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_3"&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/WorkLog/WorkLog"&gt; &lt;i class="s-sidebar-icon fa fa-clock-o"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Work Logs&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/WorkLog/Invoice"&gt; &lt;i class="s-sidebar-icon fa fa-file-text"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Invoices&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+           &lt;li class="s-sidebar-item has-children"&gt; &lt;a class="s-sidebar-link" href="#nav_menu1_3_3_3" data-bs-toggle="collapse"&gt; &lt;i class="s-sidebar-icon s-sidebar-noicon"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Setup&lt;/span&gt; &lt;em class="s-sidebar-menu-toggle fa fa-angle-right"&gt;&lt;/em&gt; &lt;/a&gt; <br/>
+            &lt;ul id="nav_menu1_3_3_3" class="s-sidebar-menu collapse" data-bs-parent="#nav_menu1_3_3"&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/WorkLog/Employee"&gt; &lt;i class="s-sidebar-icon fa fa-users"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Employees&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/WorkLog/Customer"&gt; &lt;i class="s-sidebar-icon fa fa-user"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Customers&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/WorkLog/Project"&gt; &lt;i class="s-sidebar-icon fa fa-book"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Projects&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/WorkLog/EmployeePricing"&gt; &lt;i class="s-sidebar-icon fa fa-envelope"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Pricing&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+             &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/WorkLog/Currency"&gt; &lt;i class="s-sidebar-icon fa fa-usd"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Currencies&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+          &lt;/ul&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="s-sidebar-group" id="s_sidebar_group2"&gt; <br/>
+      &lt;h5 class="s-sidebar-group-title"&gt;Administration&lt;/h5&gt; <br/>
+      &lt;ul class="s-sidebar-menu" id="s_sidebar_menu2"&gt; <br/>
+       &lt;li class="s-sidebar-item s-sidebar-section has-children"&gt; &lt;h6 class="s-sidebar-section-title"&gt;General&lt;/h6&gt; <br/>
+        &lt;ul id="nav_menu2_1" class="s-sidebar-section-menu"&gt; <br/>
+         &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/DataAuditLog"&gt; &lt;i class="s-sidebar-icon fa fa-history premium-feature"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Data Audit Log&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/DataExplorer"&gt; &lt;i class="s-sidebar-icon fa fa-database premium-feature"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Data Explorer&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/EmailQueue"&gt; &lt;i class="s-sidebar-icon fa fa-envelope-o premium-feature"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Email Queue&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Administration/ExceptionLog/" target="_blank"&gt; &lt;i class="s-sidebar-icon fa fa-ban"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Exception Log&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="s-sidebar-item s-sidebar-section has-children"&gt; &lt;h6 class="s-sidebar-section-title"&gt;Localization&lt;/h6&gt; <br/>
+        &lt;ul id="nav_menu2_2" class="s-sidebar-section-menu"&gt; <br/>
+         &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Administration/Language"&gt; &lt;i class="s-sidebar-icon fa fa-comments"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Languages&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Administration/Translation"&gt; &lt;i class="s-sidebar-icon fa fa-comment-o"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Translations&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="s-sidebar-item s-sidebar-section has-children"&gt; &lt;h6 class="s-sidebar-section-title"&gt;Security&lt;/h6&gt; <br/>
+        &lt;ul id="nav_menu2_3" class="s-sidebar-section-menu"&gt; <br/>
+         &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Administration/Role"&gt; &lt;i class="s-sidebar-icon fa fa-lock"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;Roles&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li class="s-sidebar-item"&gt; &lt;a class="s-sidebar-link" href="/Administration/User"&gt; &lt;i class="s-sidebar-icon fa fa-users"&gt;&lt;/i&gt; &lt;span class="s-sidebar-link-text"&gt;User Management&lt;/span&gt; &lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/aside&gt; <br/>
+  &lt;header class="navbar sticky-top s-mobile-header"&gt; &lt;button class="s-sidebar-toggler" type="button" id="s-sidebar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"&gt; &lt;i class="fa fa-bars"&gt;&lt;/i&gt; &lt;/button&gt; <br/>
+   &lt;div class="s-mobile-header-branding"&gt; <br/>
+    &lt;img class="s-site-logo-img s-mobile-header-logo"&gt; <br/>
+   &lt;/div&gt; <br/>
+   &lt;ul class="s-mobile-header-actions"&gt; <br/>
+    &lt;li&gt; <br/>
+     &lt;div class="dropdown"&gt; &lt;a href="javascript:;" class="s-mobile-header-link s-language-selection-link" data-bs-toggle="dropdown" title="switch language"&gt; &lt;i class="s-mobile-header-icon fa fa-language"&gt;&lt;/i&gt; &lt;/a&gt; <br/>
+      &lt;ul class="dropdown-menu dropdown-menu-end s-language-selection-menu"&gt; <br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="ar" href="javascript:;"&gt;Arabic&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="bn" href="javascript:;"&gt;Bangla&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="zh-CN" href="javascript:;"&gt;Chinese (Simplified)&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="zh-TW" href="javascript:;"&gt;Chinese (Traditional)&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="cs" href="javascript:;"&gt;Czech&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="nl" href="javascript:;"&gt;Dutch&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="en" href="javascript:;"&gt;English&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="fa" href="javascript:;"&gt;Farsi&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="fr" href="javascript:;"&gt;French&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="de" href="javascript:;"&gt;German&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="hi" href="javascript:;"&gt;Hindi&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="id" href="javascript:;"&gt;Indonesian&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="it" href="javascript:;"&gt;Italian&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="ja" href="javascript:;"&gt;Japanese&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="ko" href="javascript:;"&gt;Korean&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="pl" href="javascript:;"&gt;Polish&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="pt" href="javascript:;"&gt;Portuguese&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="pt-BR" href="javascript:;"&gt;Portuguese (Brazil)&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="ro" href="javascript:;"&gt;Romanian&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="ru" href="javascript:;"&gt;Russian&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="es" href="javascript:;"&gt;Spanish&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="sv" href="javascript:;"&gt;Swedish&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="tr" href="javascript:;"&gt;Turkish&lt;/a&gt;&lt;/li&gt;<br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-language="vi-VN" href="javascript:;"&gt;Vietnamese (Vietnam)&lt;/a&gt;&lt;/li&gt;<br/>
+      &lt;/ul&gt; <br/>
+     &lt;/div&gt; &lt;/li&gt; <br/>
+    &lt;li&gt; <br/>
+     &lt;div class="dropdown"&gt; &lt;a href="javascript:;" class="s-mobile-header-link s-theme-selection-link" data-bs-toggle="dropdown" title="switch theme"&gt; &lt;i class="s-mobile-header-icon fa fa-fill-drip"&gt;&lt;/i&gt; &lt;/a&gt; <br/>
+      &lt;ul class="dropdown-menu dropdown-menu-end s-theme-selection-menu"&gt; <br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-theme="azure-light" href="javascript:;"&gt;Azure (Light)&lt;/a&gt;&lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-theme="cosmos-dark" href="javascript:;"&gt;Cosmos (Dark)&lt;/a&gt;&lt;/li&gt; <br/>
+       &lt;li&gt;&lt;a class="dropdown-item" data-theme="glassy-light" href="javascript:;"&gt;Glassy (Light)&lt;/a&gt;&lt;/li&gt; <br/>
+      &lt;/ul&gt; <br/>
+     &lt;/div&gt; &lt;/li&gt; <br/>
+    &lt;li&gt; <br/>
+     &lt;div class="dropdown"&gt; &lt;a href="javascript:;" class="s-mobile-header-link s-user-profile-link" data-bs-toggle="dropdown" title="admin"&gt; &lt;i class="s-mobile-header-icon fa fa-user"&gt;&lt;/i&gt; &lt;/a&gt; <br/>
+      &lt;div class="dropdown-menu dropdown-menu-md dropdown-menu-end s-user-profile-menu"&gt; <br/>
+       &lt;div class="s-user-card p-1 mb-2 text-center border-bottom"&gt; <br/>
+        &lt;h2 class="s-user-avatar fs-1 mb-0"&gt; &lt;i class="fa fa-user"&gt;&lt;/i&gt; &lt;/h2&gt; <br/>
+        &lt;p class="s-user-info fs-6 mb-1"&gt; admin &lt;/p&gt; <br/>
+       &lt;/div&gt; &lt;a class="dropdown-item" href="/Account/ChangePassword"&gt; &lt;em class="icon fa fa-key"&gt;&lt;/em&gt;&lt;span&gt; Change Password&lt;/span&gt; &lt;/a&gt; &lt;a class="dropdown-item" href="/Account/Signout"&gt; &lt;em class="icon fa fa-sign-out-alt"&gt;&lt;/em&gt;&lt;span&gt; Logout&lt;/span&gt; &lt;/a&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; &lt;/li&gt; <br/>
+   &lt;/ul&gt; <br/>
+  &lt;/header&gt; <br/>
+  &lt;main class="s-main"&gt; <br/>
+   &lt;section class="content"&gt; <br/>
+    &lt;link href="/Serenity.Demo.Northwind/index.css?v=2ijFcz3wlUIdMdyr1AbGBw" rel="stylesheet" type="text/css"&gt; <br/>
+    &lt;script src="/Serenity.Demo.Northwind/index.js?v=kyHPxVCAi3XC-cALztj41g" type="text/javascript"&gt;&lt;/script&gt; <br/>
+    &lt;div id="GridDiv" class="s-Serenity-Demo-Northwind-ProductGrid s-Demo-Northwind-ProductGrid s-ProductGrid s-DataGrid require-layout route-handler responsive-height" style="height: 1px;"&gt;<br/>
+     &lt;div class="grid-title"&gt;<br/>
+      &lt;div class="title-text"&gt;<br/>
+       Products<br/>
+      &lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="grid-toolbar s-Serenity-Toolbar s-Toolbar clearfix"&gt;<br/>
+      &lt;div class="s-QuickSearchBar s-QuickSearchFiltered"&gt;<br/>
+       &lt;span class="quick-search-icon"&gt;&lt;i&gt;&lt;/i&gt;&lt;/span&gt;<br/>
+       &lt;input type="text" class="s-Serenity-QuickSearchInput s-QuickSearchInput" title="enter the text to search for..." placeholder="search..."&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div class="tool-buttons"&gt;<br/>
+       &lt;div class="buttons-outer"&gt;<br/>
+        &lt;div class="buttons-inner"&gt;<br/>
+         &lt;div class="tool-button add-button icon-tool-button" data-action="add"&gt;<br/>
+          &lt;div class="button-outer"&gt;<br/>
+           &lt;span class="button-inner"&gt;&lt;i class="fa fa-plus-circle text-green"&gt;&lt;/i&gt; New Product&lt;/span&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="tool-button refresh-button icon-tool-button" data-action="refresh" title="Refresh"&gt;<br/>
+          &lt;div class="button-outer"&gt;<br/>
+           &lt;span class="button-inner"&gt;&lt;i class="fa fa-refresh text-blue"&gt;&lt;/i&gt; &lt;/span&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="tool-button column-picker-button icon-tool-button" data-action="column-picker" title="Column Picker"&gt;<br/>
+          &lt;div class="button-outer"&gt;<br/>
+           &lt;span class="button-inner"&gt;&lt;i class="fa fa-th-list text-blue"&gt;&lt;/i&gt; &lt;/span&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="buttons-inner"&gt;<br/>
+         &lt;div class="tool-button export-xlsx-button icon-tool-button" title="Excel"&gt;<br/>
+          &lt;div class="button-outer"&gt;<br/>
+           &lt;span class="button-inner"&gt;&lt;i class="fa fa-file-excel-o"&gt;&lt;/i&gt; &lt;/span&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="tool-button export-pdf-button no-text" title="PDF"&gt;<br/>
+          &lt;div class="button-outer"&gt;<br/>
+           &lt;span class="button-inner"&gt;&lt;/span&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="buttons-inner"&gt;<br/>
+         &lt;div class="tool-button apply-changes-button disabled"&gt;<br/>
+          &lt;div class="button-outer"&gt;<br/>
+           &lt;span class="button-inner"&gt;Save Changes&lt;/span&gt;<br/>
+          &lt;/div&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div class="clear"&gt;&lt;/div&gt;<br/>
+      &lt;div class="quick-filters-bar s-Serenity-QuickFilterBar s-QuickFilterBar clear"&gt;<br/>
+       &lt;div class="quick-filter-item"&gt;<br/>
+        &lt;span class="quick-filter-label"&gt;Discontinued&lt;/span&gt;<br/>
+        &lt;div class="select2-container s-Serenity-SelectEditor s-SelectEditor" id="s2id_Serenity_Demo_Northwind_ProductGrid0_QuickFilter_Discontinued"&gt;<br/>
+         &lt;a href="javascript:void(0)" class="select2-choice select2-default" tabindex="-1"&gt; &lt;span class="select2-chosen" id="select2-chosen-1"&gt; &lt;/span&gt;&lt;abbr class="select2-search-choice-close"&gt;&lt;/abbr&gt; &lt;span class="select2-arrow" role="presentation"&gt;&lt;b role="presentation"&gt;&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;label for="s2id_autogen1" class="select2-offscreen"&gt;&lt;/label&gt;<br/>
+         &lt;input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-1" id="s2id_autogen1"&gt;<br/>
+         &lt;div class="select2-drop select2-display-none select2-with-searchbox"&gt; <br/>
+          &lt;div class="select2-search"&gt; &lt;label for="s2id_autogen1_search" class="select2-offscreen"&gt;&lt;/label&gt; <br/>
+           &lt;input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-1" id="s2id_autogen1_search" placeholder=""&gt; <br/>
+          &lt;/div&gt; <br/>
+          &lt;ul class="select2-results" role="listbox" id="select2-results-1"&gt; <br/>
+          &lt;/ul&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;input type="text" id="Serenity_Demo_Northwind_ProductGrid0_QuickFilter_Discontinued" placeholder=" " class="s-Serenity-SelectEditor s-SelectEditor select2-offscreen" tabindex="-1" title=""&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="quick-filter-item"&gt;<br/>
+        &lt;span class="quick-filter-label"&gt;Supplier&lt;/span&gt;<br/>
+        &lt;div class="select2-container s-Serenity-LookupEditor s-LookupEditor" id="s2id_Serenity_Demo_Northwind_ProductGrid0_QuickFilter_SupplierID"&gt;<br/>
+         &lt;a href="javascript:void(0)" class="select2-choice select2-default" tabindex="-1"&gt; &lt;span class="select2-chosen" id="select2-chosen-2"&gt; &lt;/span&gt;&lt;abbr class="select2-search-choice-close"&gt;&lt;/abbr&gt; &lt;span class="select2-arrow" role="presentation"&gt;&lt;b role="presentation"&gt;&lt;/b&gt;&lt;/span&gt;&lt;/a&gt;&lt;label for="s2id_autogen2" class="select2-offscreen"&gt;&lt;/label&gt;<br/>
+         &lt;input class="select2-focusser select2-offscreen" type="text" aria-haspopup="true" role="button" aria-labelledby="select2-chosen-2" id="s2id_autogen2"&gt;<br/>
+         &lt;div class="select2-drop select2-display-none select2-with-searchbox"&gt; <br/>
+          &lt;div class="select2-search"&gt; &lt;label for="s2id_autogen2_search" class="select2-offscreen"&gt;&lt;/label&gt; <br/>
+           &lt;input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input" role="combobox" aria-expanded="true" aria-autocomplete="list" aria-owns="select2-results-2" id="s2id_autogen2_search" placeholder=""&gt; <br/>
+          &lt;/div&gt; <br/>
+          &lt;ul class="select2-results" role="listbox" id="select2-results-2"&gt; <br/>
+          &lt;/ul&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;input type="text" id="Serenity_Demo_Northwind_ProductGrid0_QuickFilter_SupplierID" placeholder=" " class="s-Serenity-LookupEditor s-LookupEditor select2-offscreen" tabindex="-1" title=""&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="quick-filter-item"&gt;<br/>
+        &lt;span class="quick-filter-label"&gt;Category&lt;/span&gt;<br/>
+        &lt;div class="select2-container select2-container-multi s-Serenity-LookupEditor s-LookupEditor" id="s2id_Serenity_Demo_Northwind_ProductGrid0_QuickFilter_CategoryID"&gt;<br/>
+         &lt;ul class="select2-choices"&gt; <br/>
+          &lt;li class="select2-search-field"&gt; &lt;label for="s2id_autogen3" class="select2-offscreen"&gt;&lt;/label&gt; &lt;input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" class="select2-input select2-default" id="s2id_autogen3" placeholder="" style="width: 192.2px;"&gt; &lt;/li&gt;<br/>
+         &lt;/ul&gt;<br/>
+         &lt;div class="select2-drop select2-drop-multi select2-display-none"&gt; <br/>
+          &lt;ul class="select2-results"&gt; <br/>
+           &lt;li class="select2-no-results"&gt;No matches found&lt;/li&gt;<br/>
+          &lt;/ul&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;input type="text" id="Serenity_Demo_Northwind_ProductGrid0_QuickFilter_CategoryID" placeholder=" " class="s-Serenity-LookupEditor s-LookupEditor select2-offscreen" tabindex="-1"&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="grid-container slick-container ltr sleekgrid_951505 ui-widget sleek-vars" style="overflow: hidden; outline: 0px; position: relative; --sleek-row-height: 36px; --sleek-cell-height: 36px; --sleek-top-panel-height: 30px; --sleek-grouping-panel-height: 30px; --sleek-headerrow-height: 34px; --sleek-footerrow-height: 30px; --l0: 0px; --r0: 1210px; --l1: 80px; --r1: 931px; --l2: 359px; --r2: 878px; --l3: 412px; --r3: 706px; --l4: 584px; --r4: 534px; --l5: 756px; --r5: 384px; --l6: 906px; --r6: 288px; --l7: 1002px; --r7: 192px; --l8: 1098px; --r8: 96px; --l9: 1194px; --r9: 0px; height: 412px;"&gt;<br/>
+      &lt;div class="slick-focus-sink" hidefocus="" style="position:fixed;width:0!important;height:0!important;top:0;left:0;outline:0!important;" tabindex="0"&gt;&lt;/div&gt;<br/>
+      &lt;div class="slick-header ui-state-default"&gt;<br/>
+       &lt;div class="slick-header-columns ui-sortable" style="left: -1000px; width: 2296px; user-select: none;" unselectable="on"&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default slick-header-sortable ui-sortable-handle" id="sleekgrid_951505ProductID" title="" style="width: 80px" data-c="0"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;ID&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default slick-header-sortable ui-sortable-handle" id="sleekgrid_951505ProductName" title="" style="width: 279px" data-c="1"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;Product Name&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default align-center slick-header-sortable ui-sortable-handle" id="sleekgrid_951505Discontinued" title="" style="width: 53px" data-c="2"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;Discontinued&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default slick-header-sortable ui-sortable-handle" id="sleekgrid_951505SupplierCompanyName" title="" style="width: 172px" data-c="3"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;Supplier&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default slick-header-sortable ui-sortable-handle" id="sleekgrid_951505CategoryName" title="" style="width: 172px" data-c="4"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;Category&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default slick-header-sortable ui-sortable-handle" id="sleekgrid_951505QuantityPerUnit" title="" style="width: 150px" data-c="5"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;Quantity Per Unit&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default slick-header-sortable ui-sortable-handle" id="sleekgrid_951505UnitPrice" title="" style="width: 96px" data-c="6"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;Unit Price&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default slick-header-sortable ui-sortable-handle" id="sleekgrid_951505UnitsInStock" title="" style="width: 96px" data-c="7"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;Units In Stock&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default slick-header-sortable ui-sortable-handle" id="sleekgrid_951505UnitsOnOrder" title="" style="width: 96px" data-c="8"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;Units On Order&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-header-column ui-state-default slick-header-sortable ui-sortable-handle" id="sleekgrid_951505ReorderLevel" title="" style="width: 96px" data-c="9"&gt;<br/>
+         &lt;span class="slick-column-name"&gt;Reorder Level&lt;/span&gt;&lt;span class="slick-sort-indicator"&gt;&lt;/span&gt;<br/>
+         &lt;div class="slick-resizable-handle" draggable="true"&gt;&lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div class="slick-headerrow ui-state-default" style="display: none"&gt;<br/>
+       &lt;div class="slick-headerrow-columns" style="width: 1290px;"&gt;&lt;/div&gt;<br/>
+       &lt;div style="display: block; height: 1px; position: absolute; top: 0px; left: 0px; width: 1290px;" width="1296px"&gt;&lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div class="slick-top-panel-scroller ui-state-default" style="display: none"&gt;<br/>
+       &lt;div class="slick-top-panel" style="width: 10000px"&gt;&lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div class="slick-viewport" tabindex="0" hidefocus="" style="overflow: auto; height: 378.2px;"&gt;<br/>
+       &lt;div class="grid-canvas" tabindex="0" hidefocus="" style="height: 372px; width: 1290px;"&gt;<br/>
+        &lt;div class="ui-widget-content slick-row even" style="top:0px"&gt;<br/>
+         &lt;div class="slick-cell l0 r0 align-right"&gt;<br/>
+          &lt;a href="#Demo-Northwind-Product/79" data-item-type="Demo.Northwind.Product" data-item-id="79" class="s-EditLink s-Demo-Northwind-ProductLink"&gt;79&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l1 r1"&gt;<br/>
+          &lt;a href="#Demo-Northwind-Product/79" data-item-type="Demo.Northwind.Product" data-item-id="79" class="s-EditLink s-Demo-Northwind-ProductLink"&gt;Producto-Diego-Toro&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l2 r2 align-center"&gt;<br/>
+          &lt;span class="check-box no-float readonly slick-edit-preclick "&gt;&lt;/span&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l3 r3"&gt;<br/>
+          &lt;select class="edit" data-field="SupplierID" style="width: 100%; max-width: 100%"&gt;&lt;option value=""&gt;--&lt;/option&gt;&lt;option value="18"&gt;Aux joyeux ecclésiastiques&lt;/option&gt;&lt;option value="16"&gt;Bigfoot Breweries&lt;/option&gt;&lt;option value="5"&gt;Cooperativa de Quesos 'Las Cabras'&lt;/option&gt;&lt;option value="27"&gt;Escargots Nouveaux&lt;/option&gt;&lt;option value="1"&gt;Exotic Liquids&lt;/option&gt;&lt;option value="29"&gt;Forêts d'érables&lt;/option&gt;&lt;option value="14"&gt;Formaggi Fortini s.r.l.&lt;/option&gt;&lt;option value="28"&gt;Gai pâturage&lt;/option&gt;&lt;option value="24"&gt;G'day, Mate&lt;/option&gt;&lt;option value="3"&gt;Grandma Kelly's Homestead&lt;/option&gt;&lt;option value="11"&gt;Heli Süßwaren GmbH &amp; Co. KG&lt;/option&gt;&lt;option value="23"&gt;Karkki Oy&lt;/option&gt;&lt;option value="20"&gt;Leka Trading&lt;/option&gt;&lt;option value="21"&gt;Lyngbysild&lt;/option&gt;&lt;option value="25"&gt;Ma Maison&lt;/option&gt;&lt;option value="6"&gt;Mayumi's&lt;/option&gt;&lt;option value="19"&gt;New England Seafood Cannery&lt;/option&gt;&lt;option value="2"&gt;New Orleans Cajun Delights&lt;/option&gt;&lt;option value="13"&gt;Nord-Ost-Fisch Handelsgesellschaft mbH&lt;/option&gt;&lt;option value="15"&gt;Norske Meierier&lt;/option&gt;&lt;option value="26"&gt;Pasta Buttini s.r.l.&lt;/option&gt;&lt;option value="7"&gt;Pavlova, Ltd.&lt;/option&gt;&lt;option value="9"&gt;PB Knäckebröd AB&lt;/option&gt;&lt;option value="12"&gt;Plutzer Lebensmittelgroßmärkte AG&lt;/option&gt;&lt;option value="10"&gt;Refrescos Americanas LTDA&lt;/option&gt;&lt;option value="8"&gt;Specialty Biscuits, Ltd.&lt;/option&gt;&lt;option value="17"&gt;Svensk Sjöföda AB&lt;/option&gt;&lt;option value="4"&gt;Tokyo Traders&lt;/option&gt;&lt;option value="22"&gt;Zaanse Snoepfabriek&lt;/option&gt;&lt;/select&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l4 r4"&gt;<br/>
+          &lt;select class="edit" data-field="CategoryID" style="width: 100%; max-width: 100%"&gt;&lt;option value=""&gt;--&lt;/option&gt;&lt;option value="1"&gt;Beverages&lt;/option&gt;&lt;option value="2"&gt;Condiments&lt;/option&gt;&lt;option value="3"&gt;Confections&lt;/option&gt;&lt;option value="4"&gt;Dairy Products&lt;/option&gt;&lt;option value="5"&gt;Grains/Cereals&lt;/option&gt;&lt;option value="6"&gt;Meat/Poultry&lt;/option&gt;&lt;option value="7"&gt;Produce&lt;/option&gt;&lt;option value="8"&gt;Seafood&lt;/option&gt;&lt;/select&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l5 r5"&gt;<br/>
+          &lt;input type="text" class="edit string" data-field="QuantityPerUnit" value="" maxlength="20"&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l6 r6 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="UnitPrice" value=""&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l7 r7 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="UnitsInStock" value="1"&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l8 r8 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="UnitsOnOrder" value="1"&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l9 r9 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="ReorderLevel" value="1"&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="ui-widget-content slick-row odd" style="top:36px"&gt;<br/>
+         &lt;div class="slick-cell l0 r0 align-right"&gt;<br/>
+          &lt;a href="#Demo-Northwind-Product/103" data-item-type="Demo.Northwind.Product" data-item-id="103" class="s-EditLink s-Demo-Northwind-ProductLink"&gt;103&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l1 r1"&gt;<br/>
+          &lt;a href="#Demo-Northwind-Product/103" data-item-type="Demo.Northwind.Product" data-item-id="103" class="s-EditLink s-Demo-Northwind-ProductLink"&gt;Producto-Diego-Toro&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l2 r2 align-center"&gt;<br/>
+          &lt;span class="check-box no-float readonly slick-edit-preclick "&gt;&lt;/span&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l3 r3"&gt;<br/>
+          &lt;select class="edit" data-field="SupplierID" style="width: 100%; max-width: 100%"&gt;&lt;option value=""&gt;--&lt;/option&gt;&lt;option value="18"&gt;Aux joyeux ecclésiastiques&lt;/option&gt;&lt;option value="16"&gt;Bigfoot Breweries&lt;/option&gt;&lt;option value="5"&gt;Cooperativa de Quesos 'Las Cabras'&lt;/option&gt;&lt;option value="27"&gt;Escargots Nouveaux&lt;/option&gt;&lt;option value="1"&gt;Exotic Liquids&lt;/option&gt;&lt;option value="29"&gt;Forêts d'érables&lt;/option&gt;&lt;option value="14"&gt;Formaggi Fortini s.r.l.&lt;/option&gt;&lt;option value="28"&gt;Gai pâturage&lt;/option&gt;&lt;option value="24"&gt;G'day, Mate&lt;/option&gt;&lt;option value="3"&gt;Grandma Kelly's Homestead&lt;/option&gt;&lt;option value="11"&gt;Heli Süßwaren GmbH &amp; Co. KG&lt;/option&gt;&lt;option value="23"&gt;Karkki Oy&lt;/option&gt;&lt;option value="20"&gt;Leka Trading&lt;/option&gt;&lt;option value="21"&gt;Lyngbysild&lt;/option&gt;&lt;option value="25"&gt;Ma Maison&lt;/option&gt;&lt;option value="6"&gt;Mayumi's&lt;/option&gt;&lt;option value="19"&gt;New England Seafood Cannery&lt;/option&gt;&lt;option value="2"&gt;New Orleans Cajun Delights&lt;/option&gt;&lt;option value="13"&gt;Nord-Ost-Fisch Handelsgesellschaft mbH&lt;/option&gt;&lt;option value="15"&gt;Norske Meierier&lt;/option&gt;&lt;option value="26"&gt;Pasta Buttini s.r.l.&lt;/option&gt;&lt;option value="7"&gt;Pavlova, Ltd.&lt;/option&gt;&lt;option value="9"&gt;PB Knäckebröd AB&lt;/option&gt;&lt;option value="12"&gt;Plutzer Lebensmittelgroßmärkte AG&lt;/option&gt;&lt;option value="10"&gt;Refrescos Americanas LTDA&lt;/option&gt;&lt;option value="8"&gt;Specialty Biscuits, Ltd.&lt;/option&gt;&lt;option value="17"&gt;Svensk Sjöföda AB&lt;/option&gt;&lt;option value="4"&gt;Tokyo Traders&lt;/option&gt;&lt;option value="22"&gt;Zaanse Snoepfabriek&lt;/option&gt;&lt;/select&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l4 r4"&gt;<br/>
+          &lt;select class="edit" data-field="CategoryID" style="width: 100%; max-width: 100%"&gt;&lt;option value=""&gt;--&lt;/option&gt;&lt;option value="1"&gt;Beverages&lt;/option&gt;&lt;option value="2"&gt;Condiments&lt;/option&gt;&lt;option value="3"&gt;Confections&lt;/option&gt;&lt;option value="4"&gt;Dairy Products&lt;/option&gt;&lt;option value="5"&gt;Grains/Cereals&lt;/option&gt;&lt;option value="6"&gt;Meat/Poultry&lt;/option&gt;&lt;option value="7"&gt;Produce&lt;/option&gt;&lt;option value="8"&gt;Seafood&lt;/option&gt;&lt;/select&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l5 r5"&gt;<br/>
+          &lt;input type="text" class="edit string" data-field="QuantityPerUnit" value="" maxlength="20"&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l6 r6 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="UnitPrice" value=""&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l7 r7 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="UnitsInStock" value="1"&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l8 r8 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="UnitsOnOrder" value="1"&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l9 r9 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="ReorderLevel" value="1"&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="ui-widget-content slick-row even" style="top:72px"&gt;<br/>
+         &lt;div class="slick-cell l0 r0 align-right"&gt;<br/>
+          &lt;a href="#Demo-Northwind-Product/126" data-item-type="Demo.Northwind.Product" data-item-id="126" class="s-EditLink s-Demo-Northwind-ProductLink"&gt;126&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l1 r1"&gt;<br/>
+          &lt;a href="#Demo-Northwind-Product/126" data-item-type="Demo.Northwind.Product" data-item-id="126" class="s-EditLink s-Demo-Northwind-ProductLink"&gt;Producto-Diego-Toro&lt;/a&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l2 r2 align-center"&gt;<br/>
+          &lt;span class="check-box no-float readonly slick-edit-preclick "&gt;&lt;/span&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l3 r3"&gt;<br/>
+          &lt;select class="edit" data-field="SupplierID" style="width: 100%; max-width: 100%"&gt;&lt;option value=""&gt;--&lt;/option&gt;&lt;option value="18"&gt;Aux joyeux ecclésiastiques&lt;/option&gt;&lt;option value="16"&gt;Bigfoot Breweries&lt;/option&gt;&lt;option value="5"&gt;Cooperativa de Quesos 'Las Cabras'&lt;/option&gt;&lt;option value="27"&gt;Escargots Nouveaux&lt;/option&gt;&lt;option value="1"&gt;Exotic Liquids&lt;/option&gt;&lt;option value="29"&gt;Forêts d'érables&lt;/option&gt;&lt;option value="14"&gt;Formaggi Fortini s.r.l.&lt;/option&gt;&lt;option value="28"&gt;Gai pâturage&lt;/option&gt;&lt;option value="24"&gt;G'day, Mate&lt;/option&gt;&lt;option value="3"&gt;Grandma Kelly's Homestead&lt;/option&gt;&lt;option value="11"&gt;Heli Süßwaren GmbH &amp; Co. KG&lt;/option&gt;&lt;option value="23"&gt;Karkki Oy&lt;/option&gt;&lt;option value="20"&gt;Leka Trading&lt;/option&gt;&lt;option value="21"&gt;Lyngbysild&lt;/option&gt;&lt;option value="25"&gt;Ma Maison&lt;/option&gt;&lt;option value="6"&gt;Mayumi's&lt;/option&gt;&lt;option value="19"&gt;New England Seafood Cannery&lt;/option&gt;&lt;option value="2"&gt;New Orleans Cajun Delights&lt;/option&gt;&lt;option value="13"&gt;Nord-Ost-Fisch Handelsgesellschaft mbH&lt;/option&gt;&lt;option value="15"&gt;Norske Meierier&lt;/option&gt;&lt;option value="26"&gt;Pasta Buttini s.r.l.&lt;/option&gt;&lt;option value="7"&gt;Pavlova, Ltd.&lt;/option&gt;&lt;option value="9"&gt;PB Knäckebröd AB&lt;/option&gt;&lt;option value="12"&gt;Plutzer Lebensmittelgroßmärkte AG&lt;/option&gt;&lt;option value="10"&gt;Refrescos Americanas LTDA&lt;/option&gt;&lt;option value="8"&gt;Specialty Biscuits, Ltd.&lt;/option&gt;&lt;option value="17"&gt;Svensk Sjöföda AB&lt;/option&gt;&lt;option value="4"&gt;Tokyo Traders&lt;/option&gt;&lt;option value="22"&gt;Zaanse Snoepfabriek&lt;/option&gt;&lt;/select&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l4 r4"&gt;<br/>
+          &lt;select class="edit" data-field="CategoryID" style="width: 100%; max-width: 100%"&gt;&lt;option value=""&gt;--&lt;/option&gt;&lt;option value="1"&gt;Beverages&lt;/option&gt;&lt;option value="2"&gt;Condiments&lt;/option&gt;&lt;option value="3"&gt;Confections&lt;/option&gt;&lt;option value="4"&gt;Dairy Products&lt;/option&gt;&lt;option value="5"&gt;Grains/Cereals&lt;/option&gt;&lt;option value="6"&gt;Meat/Poultry&lt;/option&gt;&lt;option value="7"&gt;Produce&lt;/option&gt;&lt;option value="8"&gt;Seafood&lt;/option&gt;&lt;/select&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l5 r5"&gt;<br/>
+          &lt;input type="text" class="edit string" data-field="QuantityPerUnit" value="" maxlength="20"&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l6 r6 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="UnitPrice" value=""&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l7 r7 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="UnitsInStock" value="1"&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l8 r8 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="UnitsOnOrder" value="1"&gt;<br/>
+         &lt;/div&gt;<br/>
+         &lt;div class="slick-cell l9 r9 align-right"&gt;<br/>
+          &lt;input type="text" class="edit numeric" data-field="ReorderLevel" value="1"&gt;<br/>
+         &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div class="slick-footerrow ui-state-default" style="display: none"&gt;<br/>
+       &lt;div class="slick-footerrow-columns" style="width: 1290px;"&gt;<br/>
+        &lt;div class="slick-footerrow-column l0 r0 ui-state-default align-right" data-c="0"&gt;&lt;/div&gt;<br/>
+        &lt;div class="slick-footerrow-column l1 r1 ui-state-default" data-c="1"&gt;&lt;/div&gt;<br/>
+        &lt;div class="slick-footerrow-column l2 r2 ui-state-default align-center" data-c="2"&gt;&lt;/div&gt;<br/>
+        &lt;div class="slick-footerrow-column l3 r3 ui-state-default" data-c="3"&gt;&lt;/div&gt;<br/>
+        &lt;div class="slick-footerrow-column l4 r4 ui-state-default" data-c="4"&gt;&lt;/div&gt;<br/>
+        &lt;div class="slick-footerrow-column l5 r5 ui-state-default" data-c="5"&gt;&lt;/div&gt;<br/>
+        &lt;div class="slick-footerrow-column l6 r6 ui-state-default align-right" data-c="6"&gt;&lt;/div&gt;<br/>
+        &lt;div class="slick-footerrow-column l7 r7 ui-state-default align-right" data-c="7"&gt;&lt;/div&gt;<br/>
+        &lt;div class="slick-footerrow-column l8 r8 ui-state-default align-right" data-c="8"&gt;&lt;/div&gt;<br/>
+        &lt;div class="slick-footerrow-column l9 r9 ui-state-default align-right" data-c="9"&gt;&lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div style="display: block; height: 1px; position: absolute; top: 0px; left: 0px; width: 1290px;" width="1296px"&gt;&lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+      &lt;div class="slick-focus-sink" hidefocus="" style="position:fixed;width:0!important;height:0!important;top:0;left:0;outline:0!important;" tabindex="0"&gt;&lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="s-Serenity-FilterDisplayBar s-FilterDisplayBar"&gt;<br/>
+      &lt;div&gt;<br/>
+       &lt;a class="reset" title="clear filter" style="display: none;"&gt;&lt;/a&gt;&lt;a class="edit"&gt;edit filter&lt;/a&gt;<br/>
+       &lt;div class="current" style="display: none;"&gt;<br/>
+        &lt;span class="cap"&gt;Active Filter:&lt;/span&gt;&lt;a class="txt"&gt;[none]&lt;/a&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div class="s-Serenity-SlickPager s-SlickPager slick-pg"&gt;<br/>
+      &lt;div class="slick-pg-in"&gt;<br/>
+       &lt;div class="slick-pg-grp"&gt;<br/>
+        &lt;select class="slick-pg-size" name="rp"&gt;&lt;option value="20"&gt;20&nbsp;&nbsp;&lt;/option&gt;&lt;option value="100" selected&gt;100&nbsp;&nbsp;&lt;/option&gt;&lt;option value="500"&gt;500&nbsp;&nbsp;&lt;/option&gt;&lt;option value="2500"&gt;2500&nbsp;&nbsp;&lt;/option&gt;&lt;/select&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="slick-pg-sep"&gt;&lt;/div&gt;<br/>
+       &lt;div class="slick-pg-grp"&gt;<br/>
+        &lt;div class="slick-pg-first slick-pg-btn"&gt;<br/>
+         &lt;span class="slick-pg-btn-span"&gt;&lt;/span&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-pg-prev slick-pg-btn"&gt;<br/>
+         &lt;span class="slick-pg-btn-span"&gt;&lt;/span&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="slick-pg-sep"&gt;&lt;/div&gt;<br/>
+       &lt;div class="slick-pg-grp"&gt;<br/>
+        &lt;span class="slick-pg-control"&gt;&nbsp;Page&nbsp;&lt;input class="slick-pg-current" type="text" size="4" value="1"&gt; / &lt;span class="slick-pg-total"&gt;1&lt;/span&gt;&lt;/span&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="slick-pg-sep"&gt;&lt;/div&gt;<br/>
+       &lt;div class="slick-pg-grp"&gt;<br/>
+        &lt;div class="slick-pg-next slick-pg-btn"&gt;<br/>
+         &lt;span class="slick-pg-btn-span"&gt;&lt;/span&gt;<br/>
+        &lt;/div&gt;<br/>
+        &lt;div class="slick-pg-last slick-pg-btn"&gt;<br/>
+         &lt;span class="slick-pg-btn-span"&gt;&lt;/span&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="slick-pg-sep"&gt;&lt;/div&gt;<br/>
+       &lt;div class="slick-pg-grp"&gt;<br/>
+        &lt;div class="slick-pg-reload slick-pg-btn"&gt;<br/>
+         &lt;span class="slick-pg-btn-span"&gt;&lt;/span&gt;<br/>
+        &lt;/div&gt;<br/>
+       &lt;/div&gt;<br/>
+       &lt;div class="slick-pg-sep"&gt;&lt;/div&gt;<br/>
+       &lt;div class="slick-pg-grp"&gt;<br/>
+        &lt;span class="slick-pg-stat"&gt;Showing 1 to 3 of 3 total records&lt;/span&gt;<br/>
+       &lt;/div&gt;<br/>
+      &lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+    &lt;/div&gt; <br/>
+    &lt;script type="text/javascript"&gt;<br/>
+    jQuery(function () {<br/>
+        new Serenity.Demo.Northwind.ProductGrid($('#GridDiv'), {}).init();<br/>
+<br/>
+        Q.initFullHeightGridPage($('#GridDiv'));<br/>
+    });<br/>
+&lt;/script&gt; <br/>
+   &lt;/section&gt; <br/>
+  &lt;/main&gt; <br/>
+  &lt;div id="cboxOverlay" style="display: none;"&gt;&lt;/div&gt;<br/>
+  &lt;div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"&gt;<br/>
+   &lt;div id="cboxWrapper"&gt;<br/>
+    &lt;div&gt;<br/>
+     &lt;div id="cboxTopLeft" style="float: left;"&gt;&lt;/div&gt;<br/>
+     &lt;div id="cboxTopCenter" style="float: left;"&gt;&lt;/div&gt;<br/>
+     &lt;div id="cboxTopRight" style="float: left;"&gt;&lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div style="clear: left;"&gt;<br/>
+     &lt;div id="cboxMiddleLeft" style="float: left;"&gt;&lt;/div&gt;<br/>
+     &lt;div id="cboxContent" style="float: left;"&gt;<br/>
+      &lt;div id="cboxTitle" style="float: left;"&gt;&lt;/div&gt;<br/>
+      &lt;div id="cboxCurrent" style="float: left;"&gt;&lt;/div&gt;&lt;button type="button" id="cboxPrevious"&gt;&lt;/button&gt;&lt;button type="button" id="cboxNext"&gt;&lt;/button&gt;&lt;button id="cboxSlideshow"&gt;&lt;/button&gt;<br/>
+      &lt;div id="cboxLoadingOverlay" style="float: left;"&gt;&lt;/div&gt;<br/>
+      &lt;div id="cboxLoadingGraphic" style="float: left;"&gt;&lt;/div&gt;<br/>
+     &lt;/div&gt;<br/>
+     &lt;div id="cboxMiddleRight" style="float: left;"&gt;&lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+    &lt;div style="clear: left;"&gt;<br/>
+     &lt;div id="cboxBottomLeft" style="float: left;"&gt;&lt;/div&gt;<br/>
+     &lt;div id="cboxBottomCenter" style="float: left;"&gt;&lt;/div&gt;<br/>
+     &lt;div id="cboxBottomRight" style="float: left;"&gt;&lt;/div&gt;<br/>
+    &lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+   &lt;div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"&gt;&lt;/div&gt;<br/>
+  &lt;/div&gt;&lt;span role="status" aria-live="polite" class="select2-hidden-accessible"&gt;&lt;/span&gt;&lt;span role="status" aria-live="polite" class="select2-hidden-accessible"&gt;&lt;/span&gt;&lt;span role="status" aria-live="polite" class="select2-hidden-accessible"&gt;&lt;/span&gt;<br/>
+  &lt;div id="nprogress" style="transition: none 0s ease 0s; opacity: 1;"&gt;<br/>
+   &lt;div class="bar" role="bar" style="transform: translate3d(0%, 0px, 0px); transition: all 200ms ease 0s;"&gt;<br/>
+    &lt;div class="peg"&gt;&lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+   &lt;div class="spinner" role="spinner"&gt;<br/>
+    &lt;div class="spinner-icon"&gt;&lt;/div&gt;<br/>
+   &lt;/div&gt;<br/>
+  &lt;/div&gt;<br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

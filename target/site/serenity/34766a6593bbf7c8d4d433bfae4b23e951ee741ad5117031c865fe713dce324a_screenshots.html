@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css"><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.11.3/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.11.3/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.11.3/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/>
+<!--CHART.JS-->
+<script src="chartjs/chart.js"></script>
+<script src="chartjs/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="chartjs/patternomaly.min.js"></script>
+<script>
+    // Register the plugin to all charts:
+    Chart.register(ChartDataLabels);
+</script>
+<!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c2a72006f7beb1516ed2e20f7e4365d9872ae877bb1be758fd636380f6ae981a.html">Creacion De Producto</a></span>
+                > <span class="truncate-60"><a
+                    href="34766a6593bbf7c8d4d433bfae4b23e951ee741ad5117031c865fe713dce324a.html">Creacion de producto exitosa </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="bi bi-journal-check"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 02-06-2023 08:05</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
+                                    <span class="story-header-title">Creacion De Producto </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario logeado, quiero poder crear un producto correctamente para gestionar mi inventario.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="3ca31a862ea6e97b49545e1f544b68ccf4f10b03da0cabc175ec59d2817840bd.html">Creacion Producto
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Creacion de producto exitosa
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="bd475a9a901b9e8b2d2ea4ea1f6cb960bc4a580290b8c07b52fc4afbc885360f.png" title=" Dado que el usuario ha iniciado sesion y que el usuario hace clic en Product Types" width="1920"/>
+                <img src="bd475a9a901b9e8b2d2ea4ea1f6cb960bc4a580290b8c07b52fc4afbc885360f.png" title=" Usuario inicio de sesion task" width="1920"/>
+                <img src="bd475a9a901b9e8b2d2ea4ea1f6cb960bc4a580290b8c07b52fc4afbc885360f.png" title=" Usuario opens the https://demo.serenity.is/" width="1920"/>
+                <img src="bd475a9a901b9e8b2d2ea4ea1f6cb960bc4a580290b8c07b52fc4afbc885360f.png" title=" Usuario clears field nombre de usuario" width="1920"/>
+                <img src="a1b17ead132a0e5354cd7d189738f85742a4877e6b8d324631657473425a9b26.png" title=" Usuario clears field nombre de usuario (completed)" width="1920"/>
+                <img src="a1b17ead132a0e5354cd7d189738f85742a4877e6b8d324631657473425a9b26.png" title=" Usuario enters 'admin' into nombre de usuario" width="1920"/>
+                <img src="2b2a470fcb9c961d04d032aa578c19e277ccad953624990a0f723e2addc9665c.png" title=" Usuario enters 'admin' into nombre de usuario" width="1920"/>
+                <img src="2b2a470fcb9c961d04d032aa578c19e277ccad953624990a0f723e2addc9665c.png" title=" Usuario enters 'admin' into nombre de usuario (completed)" width="1920"/>
+                <img src="2b2a470fcb9c961d04d032aa578c19e277ccad953624990a0f723e2addc9665c.png" title=" Usuario clears field Clave de usuario" width="1920"/>
+                <img src="8a16b85317d720cc8aa27262f7bcac5c3821dc9a4c7cc3901745b0bfea3b8734.png" title=" Usuario clears field Clave de usuario (completed)" width="1920"/>
+                <img src="8a16b85317d720cc8aa27262f7bcac5c3821dc9a4c7cc3901745b0bfea3b8734.png" title=" Usuario enters 'serenity' into Clave de usuario" width="1920"/>
+                <img src="cefc7317d56c611520cae417f2785cf2d4ba7e22c6477cc1cf1385d5acf40374.png" title=" Usuario enters 'serenity' into Clave de usuario" width="1920"/>
+                <img src="cefc7317d56c611520cae417f2785cf2d4ba7e22c6477cc1cf1385d5acf40374.png" title=" Usuario enters 'serenity' into Clave de usuario (completed)" width="1920"/>
+                <img src="cefc7317d56c611520cae417f2785cf2d4ba7e22c6477cc1cf1385d5acf40374.png" title=" Usuario clicks on Boton de ingreso" width="1920"/>
+                <img src="f219c8960f712df623ada92f9dfd1669503e678519a117ddc93e920d39963daa.png" title=" Usuario clicks on Boton de ingreso" width="1920"/>
+                <img src="f219c8960f712df623ada92f9dfd1669503e678519a117ddc93e920d39963daa.png" title=" Usuario clicks on Boton de ingreso (completed)" width="1920"/>
+                <img src="f219c8960f712df623ada92f9dfd1669503e678519a117ddc93e920d39963daa.png" title=" Usuario inicio de sesion task (completed)" width="1920"/>
+                <img src="f219c8960f712df623ada92f9dfd1669503e678519a117ddc93e920d39963daa.png" title=" Usuario dash board task" width="1920"/>
+                <img src="37c4e6ce3f37936a1e6b9f6d45d6e2a58ddb375250ab121ff8c2f2cfb7e109a5.png" title=" Usuario clicks on Boton de producto" width="1920"/>
+                <img src="95e3a6501430c3ecb3c35fc50caad1e2a25435a2839bee1e294723de9367ccfb.png" title=" Usuario clicks on Boton de producto" width="1920"/>
+                <img src="95e3a6501430c3ecb3c35fc50caad1e2a25435a2839bee1e294723de9367ccfb.png" title=" Usuario clicks on Boton de producto (completed)" width="1920"/>
+                <img src="95e3a6501430c3ecb3c35fc50caad1e2a25435a2839bee1e294723de9367ccfb.png" title=" Usuario dash board task (completed)" width="1920"/>
+                <img src="c61fb3b8b2a1840bdfe1ab5c9894ba342313e6c28aae43d5ad657ae1e7285f48.png" title=" Dado que el usuario ha iniciado sesion y que el usuario hace clic en Product Types (completed)" width="1920"/>
+                <img src="69ac8ee4b3dabfb4a191133066899a9e2cf2611133d34f50a7ea91ada41ad9a5.png" title=" Cuando el usuario da clic en el boton New Product y agerga el nombre juntco con los campos obligatorios y guarde el producto" width="1920"/>
+                <img src="69ac8ee4b3dabfb4a191133066899a9e2cf2611133d34f50a7ea91ada41ad9a5.png" title=" Usuario productos task" width="1920"/>
+                <img src="69ac8ee4b3dabfb4a191133066899a9e2cf2611133d34f50a7ea91ada41ad9a5.png" title=" Usuario clicks on Boton de registro de producto" width="1920"/>
+                <img src="69ac8ee4b3dabfb4a191133066899a9e2cf2611133d34f50a7ea91ada41ad9a5.png" title=" Usuario clicks on Boton de registro de producto (completed)" width="1920"/>
+                <img src="69ac8ee4b3dabfb4a191133066899a9e2cf2611133d34f50a7ea91ada41ad9a5.png" title=" Usuario enters 'Producto-Diego-Toro' into nombre del producto" width="1920"/>
+                <img src="ccdf5a9c15bee8a056390ae699a1b57d86bc6c4cea161ba05c052c8df44f7e84.png" title=" Usuario enters 'Producto-Diego-Toro' into nombre del producto" width="1920"/>
+                <img src="ccdf5a9c15bee8a056390ae699a1b57d86bc6c4cea161ba05c052c8df44f7e84.png" title=" Usuario enters 'Producto-Diego-Toro' into nombre del producto (completed)" width="1920"/>
+                <img src="ccdf5a9c15bee8a056390ae699a1b57d86bc6c4cea161ba05c052c8df44f7e84.png" title=" Usuario clears field stock del producto" width="1920"/>
+                <img src="0fb807cb828f1117bc7b8aa0f2d5db372086385dfb4615c9321b848059123688.png" title=" Usuario clears field stock del producto (completed)" width="1920"/>
+                <img src="0fb807cb828f1117bc7b8aa0f2d5db372086385dfb4615c9321b848059123688.png" title=" Usuario enters '2' into stock del producto" width="1920"/>
+                <img src="a27021de4bddea9ffaad084b9f81c6a8fb7fd546fa555f7db72182685fe67919.png" title=" Usuario enters '2' into stock del producto" width="1920"/>
+                <img src="a27021de4bddea9ffaad084b9f81c6a8fb7fd546fa555f7db72182685fe67919.png" title=" Usuario enters '2' into stock del producto (completed)" width="1920"/>
+                <img src="a27021de4bddea9ffaad084b9f81c6a8fb7fd546fa555f7db72182685fe67919.png" title=" Usuario clears field unidades en el pedido" width="1920"/>
+                <img src="c5fe3c97a74e3a68cbad14560f4ee7c1bcdb976b80783adcdce48f10c6b7364a.png" title=" Usuario clears field unidades en el pedido (completed)" width="1920"/>
+                <img src="c5fe3c97a74e3a68cbad14560f4ee7c1bcdb976b80783adcdce48f10c6b7364a.png" title=" Usuario enters '1' into unidades en el pedido" width="1920"/>
+                <img src="eb9555b68b56a91bda08028378cae8f52d56c3c296355e8a1d4e68ddf60c61a2.png" title=" Usuario enters '1' into unidades en el pedido" width="1920"/>
+                <img src="eb9555b68b56a91bda08028378cae8f52d56c3c296355e8a1d4e68ddf60c61a2.png" title=" Usuario enters '1' into unidades en el pedido (completed)" width="1920"/>
+                <img src="eb9555b68b56a91bda08028378cae8f52d56c3c296355e8a1d4e68ddf60c61a2.png" title=" Usuario clears field nivel de orden" width="1920"/>
+                <img src="4a19eea8ad2b7b09ce8a3d62bf0eab330188f420e169268742be10d5a2cda4ff.png" title=" Usuario clears field nivel de orden (completed)" width="1920"/>
+                <img src="4a19eea8ad2b7b09ce8a3d62bf0eab330188f420e169268742be10d5a2cda4ff.png" title=" Usuario enters '1' into nivel de orden" width="1920"/>
+                <img src="f53f3de85bc0b27c0070d624bd45eb1fed6a727b9b65e770192c1c4459d65850.png" title=" Usuario enters '1' into nivel de orden" width="1920"/>
+                <img src="f53f3de85bc0b27c0070d624bd45eb1fed6a727b9b65e770192c1c4459d65850.png" title=" Usuario enters '1' into nivel de orden (completed)" width="1920"/>
+                <img src="fe40d657952dfa090a4efcf18a3ab80aaeeb3d2725a790cd2584f188e0b04fbb.png" title=" Usuario clicks on Boton de guardar nuevo producto" width="1920"/>
+                <img src="3e4b1616387d489812cca7c86fa8894869d4901e96cd23574c4186cb126b86e3.png" title=" Usuario clicks on Boton de guardar nuevo producto" width="1920"/>
+                <img src="3e4b1616387d489812cca7c86fa8894869d4901e96cd23574c4186cb126b86e3.png" title=" Usuario clicks on Boton de guardar nuevo producto (completed)" width="1920"/>
+                <img src="3e4b1616387d489812cca7c86fa8894869d4901e96cd23574c4186cb126b86e3.png" title=" Usuario clicks on buscar producto" width="1920"/>
+                <img src="81bf0be4e33031861e0eb8448d4a170b37e5353a61f4825486803e10fc24bfeb.png" title=" Usuario clicks on buscar producto" width="1920"/>
+                <img src="81bf0be4e33031861e0eb8448d4a170b37e5353a61f4825486803e10fc24bfeb.png" title=" Usuario clicks on buscar producto (completed)" width="1920"/>
+                <img src="81bf0be4e33031861e0eb8448d4a170b37e5353a61f4825486803e10fc24bfeb.png" title=" Usuario enters 'Producto-Diego-Toro' then hits [ENTER] into buscar producto" width="1920"/>
+                <img src="d1353392ef5dbfeb3e9d88e9ba5a769a21ed048d9ac8e62860d2876f52825e5f.png" title=" Usuario enters 'Producto-Diego-Toro' then hits [ENTER] into buscar producto" width="1920"/>
+                <img src="d1353392ef5dbfeb3e9d88e9ba5a769a21ed048d9ac8e62860d2876f52825e5f.png" title=" Usuario enters 'Producto-Diego-Toro' then hits [ENTER] into buscar producto (completed)" width="1920"/>
+                <img src="d1353392ef5dbfeb3e9d88e9ba5a769a21ed048d9ac8e62860d2876f52825e5f.png" title=" Usuario clicks on buscar producto" width="1920"/>
+                <img src="c71266988208f0269c219c5b64013ab0b5c0a2d6ba692c9cdef9fc1013996451.png" title=" Usuario clicks on buscar producto" width="1920"/>
+                <img src="c71266988208f0269c219c5b64013ab0b5c0a2d6ba692c9cdef9fc1013996451.png" title=" Usuario clicks on buscar producto (completed)" width="1920"/>
+                <img src="fbf052e06f2d53a7c45802452cdc64dcb899befbfbef9ccf73ea6df593689d7a.png" title=" Usuario enters 'Producto-Diego-Toro' then hits [ENTER] into buscar producto" width="1920"/>
+                <img src="2b097b0110011d54844ed56c1b85e08a59bd96421a35a6001634ea270710689f.png" title=" Usuario enters 'Producto-Diego-Toro' then hits [ENTER] into buscar producto" width="1920"/>
+                <img src="2b097b0110011d54844ed56c1b85e08a59bd96421a35a6001634ea270710689f.png" title=" Usuario enters 'Producto-Diego-Toro' then hits [ENTER] into buscar producto (completed)" width="1920"/>
+                <img src="2b097b0110011d54844ed56c1b85e08a59bd96421a35a6001634ea270710689f.png" title=" Usuario productos task (completed)" width="1920"/>
+                <img src="2b097b0110011d54844ed56c1b85e08a59bd96421a35a6001634ea270710689f.png" title=" Cuando el usuario da clic en el boton New Product y agerga el nombre juntco con los campos obligatorios y guarde el producto (completed)" width="1920"/>
+                <img src="de731fba533fabdb741ce8f0d64ca75d05ac51c3d52f3422f0e407b6a308866a.png" title=" Entonces el usuario puede visualizar el nombre del nuevo producto en la tabla de productos." width="1920"/>
+                <img src="de731fba533fabdb741ce8f0d64ca75d05ac51c3d52f3422f0e407b6a308866a.png" title=" Then Se visualiza el titulo del producto should be (true)" width="1920"/>
+                <img src="de731fba533fabdb741ce8f0d64ca75d05ac51c3d52f3422f0e407b6a308866a.png" title=" Entonces el usuario puede visualizar el nombre del nuevo producto en la tabla de productos. (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 3.2.0</span>
+</div>
+</body>
+</html>
